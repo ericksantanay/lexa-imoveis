@@ -25,12 +25,9 @@
 /*################# HEADER ###############*/
 header {
     padding: 5px 6%;
-    background-image: url(../image/Foto-Inicio.png);
     width: 100%;
     height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 
@@ -38,10 +35,40 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
 
 /*################# NAV IMG ###############*/
 nav > img {
-    width: 200px;
+    width: 100px;
+}
+
+/*################# NAV UL ###############*/
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+/*################# NAV UL LI A ###############*/
+nav ul li a {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--inter);
+    font-weight: 500;
+    transition: .3s ease-in-out;
+    margin-left: 10px;
+}
+
+/*################# HOVER  ###############*/
+nav ul li a:hover {
+    color: #0C2FED;
+}
+
+/*################# MENU BURGUER ###############*/
+#menuBurguer {
+    color: var(--branco);
+    display: none;
 }
