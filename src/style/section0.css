@@ -11,7 +11,7 @@
     --azul: #0C2FED;
     --preto: #000;
     --branco: #fff;
-    --azul-claro: #23A9CE;
+    --cinza: #1E1E1E; 
 }
 
 
@@ -26,8 +26,7 @@
 header {
     padding: 5px 6%;
     width: 100%;
-    height: 100vh;
-    
+    background-color: var(--cinza);
 }
 
 
@@ -69,6 +68,11 @@ nav ul li a:hover {
 
 /*################# MENU BURGUER ###############*/
 #menuBurguer {
-    color: var(--branco);
+    color: var(--preto);
     display: none;
+}
+
+/*################# MENU MOBILE,PARTE DE NAVEGAÇÃO ###############*/
+#menuMobile {
+    display: none
 }
