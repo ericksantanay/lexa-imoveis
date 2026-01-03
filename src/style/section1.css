@@ -49,6 +49,7 @@
     margin-bottom: 6%;
 }
 
+/*################# BOTÃO CONTATO ###############*/
 #btn-contato {
     background-image: linear-gradient(to right, var(--azul), var(--preto));
     color: var(--branco);
@@ -60,24 +61,7 @@
     transition: .3s ease-in-out;
 }
 
+/*################# BOTÃO CONTATO HOVER ###############*/
 #btn-contato:hover {
     box-shadow: 1px 1px 15px #0c2eed7b;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*################# ###############*/
