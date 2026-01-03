@@ -18,6 +18,7 @@
 
 /*################# CONTEUDO 2 ###############*/
 #containerDois {
+    padding: 0px 6%;
     margin-top: 8%;
 }
 
@@ -45,11 +46,13 @@
 #conteudoUm > p{
     font-family: var(--poppins);
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    line-height: 40px;
+    margin-bottom: 15px;
 }
 
 #conteudoDois > img {
     width: 520px;
     height: 520px;
-    border-radius: 10%0%;
+    border-radius: 20%0%;
 }
