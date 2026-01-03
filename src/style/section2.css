@@ -21,7 +21,35 @@
     margin-top: 8%;
 }
 
-/*################# CONTEUDO DO CONTAINER 2 ###############*/
-#conteudoTxtContainer {
+#containerDois > h1 {
+    text-align: center;
+    font-family: var(--poppins);
+    font-weight: bold;
+    margin-bottom: 5%;
+}
 
+/*################# CONTEUDO DO CONTAINER 2 ###############*/
+.conteudoTxtContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#conteudoUm {
+    width: 50%;
+    margin-right: 15px;
+}
+
+#conteudoUm > p{
+    font-family: var(--poppins);
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+#conteudoDois > img {
+    width: 520px;
+    height: 520px;
+    border-radius: 10%0%;
 }
