@@ -16,10 +16,39 @@
     --cinza: #1E1E1E; 
 } 
 
-
+/*################# SECTION 4###############*/
 #containerQuatro {
     margin-top: 6%;
     padding: 0px 6%;
     text-align: center;
 }
 
+/*################# H1 ###############*/
+#containerQuatro > h1 {
+    font-family: var(--poppins);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*################# CONTAINER DOS CARDS ###############*/
+.conteudoTerreno  {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 70px;   
+}
+
+/*################# CARD ###############*/
+.terreno {
+      width: 300px;  
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.237);
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+}
+
+/*################# IMAGEM ###############*/
+.terreno > img {
+    width: 300px;
+    border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+}
