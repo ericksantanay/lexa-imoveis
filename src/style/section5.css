@@ -25,7 +25,16 @@
     margin-top: 70px;
 }
 
-.conteudoLocalizacao {
-    
+#containerLocalizacao > h1 {
+    font-family: var(--poppins);
+    font-weight: bold;
+    margin-bottom: 60px;
+
+}
+
+.conteudoLocalizacao  {
+    background-color: var(--cinza);
+    padding: 20px;
+    border-radius: 5px;
 }
 
