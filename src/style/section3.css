@@ -41,7 +41,7 @@
     background-color: var(--branco);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.469);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.165);
     display: flex;
     align-items: center;
     justify-content: center;
