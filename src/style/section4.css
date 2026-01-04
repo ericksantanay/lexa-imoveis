@@ -40,7 +40,8 @@
 
 /*################# CARD ###############*/
 .terreno {
-      width: 300px;  
+      width: 290px; 
+      height: 500px;
       box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.237);
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
@@ -48,7 +49,24 @@
 
 /*################# IMAGEM ###############*/
 .terreno > img {
-    width: 300px;
+    width: 290px;
     border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.terreno > p {
+    padding: 5px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.btnTerreno {
+    font-family: var(--poppins);
+    font-weight: bold;
+    color: var(--branco);
+    padding: 9px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, var(--azul), var(--preto));
 }
