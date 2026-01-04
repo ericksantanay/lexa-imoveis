@@ -19,11 +19,11 @@
             <img src="src/image/Logo Lexa Editada.png" alt="Logo Lexa"> <!--lOGO LEXA-->
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Imobiliária</a></li>
-                <li><a href="#">Terrenos</a></li>
-                <li><a href="#">Localização</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#containerDois">Sobre Nós</a></li>
+                <li><a href="#containerTres">Imobiliária</a></li>
+                <li><a href="#containerQuatro">Terrenos</a></li>
+                <li><a href="#containerLocalizacao">Localização</a></li>
             </ul>
 
             <span id="menuBurguer" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
@@ -32,11 +32,11 @@
         <!--MENU MOBILE-->
         <div id="menuMobile">    
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Imobiliária</a></li>
-                <li><a href="#">Terrenos</a></li>
-                <li><a href="#">Localização</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#containerDois">Sobre Nós</a></li>
+                <li><a href="#containerTres">Imobiliária</a></li>
+                <li><a href="#containerQuatro">Terrenos</a></li>
+                <li><a href="#containerLocalizacao">Localização</a></li>
             </ul>
         </div>
 
@@ -44,7 +44,7 @@
     </header>
 
     <!--MAIN-->
-    <main>
+    <main id="home">
         <section id="containerUm"> <!--SEÇÃO 1 INICIO-->
             <article id="containerTxt">
 
@@ -58,7 +58,7 @@
         </section> <!--SEÇÃO 1 FINAL-->
 
 
-        <section id="containerDois"> <!--SEÇÃO 2 INCIO-->
+        <section id="containerDois" class="animar"> <!--SEÇÃO 2 INCIO-->
             <h1>Sobre Nós</h1>
 
             <div class="conteudoTxtContainer"> <!--DIV INICIO-->
@@ -87,7 +87,7 @@
 
             <article id="containerImobiliaria"> <!--ARTICLE INICIO-->
 
-                <div class="imobiliaria"> <!--DIV 1-->
+                <div class="imobiliaria animar"> <!--DIV 1-->
                     <img src="src/image/casa-1.png" alt="Foto de uma Casa">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eum error aliquid, dolorem illum tenetur praesentium porro repellat! Qui hic saepe sapiente aliquid illum asperiores itaque minus iste dolorum.
@@ -96,7 +96,7 @@
                     <a href="#" class="btnAlugar">Alugar Agora</a>
                 </div> <!--DIV 1-->
 
-                <div class="imobiliaria"> <!--DIV 2-->
+                <div class="imobiliaria animar"> <!--DIV 2-->
                     <img src="src/image/casa-2.png" alt="Foto de uma Casa">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eum error aliquid, dolorem illum tenetur praesentium porro repellat! Qui hic saepe sapiente aliquid illum asperiores itaque minus iste dolorum.
@@ -105,7 +105,7 @@
                     <a href="#" class="btnAlugar">Alugar Agora</a> 
                 </div> <!--DIV 2-->
 
-                <div class="imobiliaria"> <!--DIV 3-->
+                <div class="imobiliaria animar"> <!--DIV 3-->
                     <img src="src/image/casa-3.png" alt="Foto de uma Casa">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eum error aliquid, dolorem illum tenetur praesentium porro repellat! Qui hic saepe sapiente aliquid illum asperiores itaque minus iste dolorum.
@@ -122,7 +122,7 @@
             <h1>Terrenos</h1>
             <article class="conteudoTerreno"> <!--ARTICLE-->
 
-                <div class="terreno"><!--DIV 1-->
+                <div class="terreno animar"><!--DIV 1-->
                     <img src="src/image/terreno-1.png" alt="Terrenos">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi porro possimus, voluptate sit culpa sed, molestiae eius vero inventore commodi, accusamus rem explicabo eaque.
@@ -131,7 +131,7 @@
                     <a href="#" class="btnTerreno">Comprar Terreno</a>
                 </div> <!--DIV 1-->
                     
-                <div class="terreno"> <!--DIV 2-->
+                <div class="terreno animar"> <!--DIV 2-->
                     <img src="src/image/terreno-2.png" alt="Terrenos">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi porro possimus, voluptate sit culpa sed, molestiae eius vero inventore commodi, accusamus rem explicabo eaque.
@@ -140,7 +140,7 @@
                     <a href="#" class="btnTerreno">Comprar Terreno</a>
                 </div><!--DIV 2-->
 
-                <div class="terreno"> <!--DIV 3-->
+                <div class="terreno animar"> <!--DIV 3-->
 
                     <img src="src/image/terreno-3.png" alt="Terrenos">
                     <p>
@@ -154,7 +154,7 @@
             </article> <!--ARTICLE-->
         </section> <!--SEÇÃO 4-->
 
-        <section id="containerLocalizacao"> <!--SEÇÃO 5-->
+        <section id="containerLocalizacao" class="animar"> <!--SEÇÃO 5-->
             <h1>Localização</h1>
             <article class="conteudoLocalizacao"> <!--ARTICLE-->
                 <iframe src="https://www.google.com/maps/embed?pb=!4v1767547186039!6m8!1m7!1sXdcbJtN8CfNqNlIewnw9Zg!2m2!1d-23.55587236680522!2d-46.63961036520505!3f298.43017040713454!4f-5.283423920531263!5f0.7820865974627469" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

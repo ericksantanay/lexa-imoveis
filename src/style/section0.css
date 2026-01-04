@@ -76,3 +76,17 @@ nav ul li a:hover {
 #menuMobile {
     display: none
 }
+
+#menuMobile > ul{
+    list-style: none;
+}
+
+#menuMobile > ul li {
+    margin-bottom:10px ;
+}
+
+#menuMobile > ul > li a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--poppins);
+}

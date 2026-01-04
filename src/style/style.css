@@ -8,22 +8,20 @@
 @import"mobile.css";
 
 
+html {
+    scroll-behavior: smooth;
+}
 
+    /*########################################*/
+    /*EFEITO SCROL*/
+    /*#######################################*/
+    .animar {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .6s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .animar.ativo {
+    opacity: 1;
+    transform: translateY(0);
+    }
