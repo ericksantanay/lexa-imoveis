@@ -1,0 +1,71 @@
+@media screen and (max-width: 992px){
+    nav > ul {
+        display: none;
+    }
+
+    #menuBurguer {
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+
+
+    /*############# CONTAINER 1 ################*/
+    #containerTxt > h1{
+        font-size: 2rem;
+    }
+
+    #containerTxt > h2 {
+        font-size: 19px;
+        margin-bottom: 50px;
+    }
+
+
+    /*############# CONTAINER 2 ################*/
+    #conteudoUm {
+        width: 100%;
+    }
+
+    #conteudoUm > p {
+        font-size: 20px;
+    }
+
+    #conteudoDois {
+        display:  none;
+    }
+
+    /*############# CONTAINER 3 ################*/
+    #containerImobiliaria {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+    /*############# CONTAINER 4 ################*/
+    #containerQuatro {
+        margin-top: 40%;
+        margin-bottom: 30%;
+    }
+
+    .conteudoTerreno {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    } 
+
+    /*############# CONTAINER 5 ################*/
+    .conteudoLocalizacao > iframe {
+        width: 100%;
+    }
+
+    /*############# CONTAINER 6 ################*/
+
+    #conteudofooter {
+        margin-left: 0%;
+    }
+
+    #conteudofooter > p {
+        font-size: 16px;
+    }
+}
