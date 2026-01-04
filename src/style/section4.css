@@ -41,7 +41,7 @@
 /*################# CARD ###############*/
 .terreno {
       width: 290px; 
-      height: 500px;
+      height: 520px;
       box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.237);
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
@@ -59,6 +59,7 @@
     font-family: var(--poppins);
     font-weight: 500;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 
 .btnTerreno {
@@ -69,4 +70,9 @@
     text-decoration: none;
     border-radius: 5px;
     background-image: linear-gradient(to right, var(--azul), var(--preto));
+    transition: .3s  ease-in-out;
+}
+
+.btnTerreno:hover {
+    box-shadow: 1px 1px 10px #0c2eed6e;
 }
